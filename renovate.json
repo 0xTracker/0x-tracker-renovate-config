@@ -2,6 +2,11 @@
   "extends": [
     "config:base"
   ],
+  "node": {
+    "supportPolicy": [
+      "lts_latest"
+    ]
+  },
   "prHourlyLimit": 0,
   "packageRules": [
     {
@@ -67,8 +72,5 @@
       "automerge": true
     }
   ],
-  "rebaseStalePrs": true,
-  "supportPolicy": [
-    "lts_latest"
-  ]
+  "rebaseStalePrs": true
 }
